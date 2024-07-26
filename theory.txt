@@ -1,0 +1,22 @@
+<!-- 10. Image in Background 31 background-image -->
+
+<link href="css/style.css" rel="stylesheet"/>
+css comment: /*     */ or ctrl+slash 
+
+
+==============================================
+p{
+    color:blue;
+    background-image: url("img/londie.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+}
+
+p{
+    color:blue;
+    background-image: url("img/londie.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: 200px 150px;
+    background-size: cover;
+}
